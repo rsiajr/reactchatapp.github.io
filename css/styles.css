@@ -1,0 +1,53 @@
+html { 
+    background: url("/img/background.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Helvetica, sans-serif;
+}
+
+:root {
+    --col-blue: steelblue;
+    --col-teal: teal;
+    --col-gray: slategray;
+    --col-smoke: whitesmoke;
+    --col-mid:  midnightblue;
+    --col-dodge: dodgerblue;
+    --col-royal:  royalblue;
+    --col-error: tomato;
+    --font-body: Roboto;
+    --font-heading: sans-serif;
+    --animations: 0.3s;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1% 0;
+    color: var(--col-smoke) ;
+    background-color: var(--col-smoke);
+    border-bottom-style: ridge;
+    border-bottom-color: var(--col-royal);
+}
+
+.conlogo {
+    border-style: outset;
+    border-radius: 10em;
+    height: 6em;
+}
+
+.searchconvo {
+    margin-top: 3em;
+    padding: 0 15% 0 2%;
+    border-radius: .7em;
+    width: 30%;
+    height: 2em;
+}
