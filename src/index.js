@@ -1,18 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Greeting from 'components/Greeting';
-import StudentRecords from 'components/StudentRecords';
 import 'css/index.css';
+import ConvoLogo from 'img/ConvoLogo.jpg';
 
-const App = () => {
+
+function App () {
 	return (
-		<>
-			<header>
-				<Greeting name="Students" />
-				<h2>Just a sub heading</h2>
+		<div>
+			<header className="headerbar">
+				{<img className="conlogo" src={ConvoLogo}/>}
+				<input type="search" placeholder="Search Convo" className="searchconvo" />
 			</header>
-			<StudentRecords />
-		</>
+		</div>
 	)
 }
 

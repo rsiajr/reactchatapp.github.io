@@ -9,7 +9,7 @@ const records = [
 	{id: 1, name: 'Whatever', grade: 70},
 	{id: 2, name: 'Hello', grade: 70},
 	{id: 3, name: 'World', grade: 70},
-	{id: 4, name: 'Whoever', grade: 70},
+	{id: 4, name: 'Whoever', grade: 80},
 ]
 
 const StudentRecords = () => {
