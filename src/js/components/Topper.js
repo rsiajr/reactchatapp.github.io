@@ -6,8 +6,12 @@ import ConvoLogo from 'img/ConvoLogo.jpg';
 function Topper () {
 	return (
 		<div className="headerbar">
-			{<img className="conlogo" src={ConvoLogo}/>}
-			<input type="search" placeholder="Search Convo" className="searchconvo"/>
+			<article>
+				{<img className="conlogo" src={ConvoLogo}/>}
+			</article>
+			<article>
+				<input type="search" placeholder="Search Convo" className="searchconvo"/>
+			</article>
 		</div>
 	)
 }
