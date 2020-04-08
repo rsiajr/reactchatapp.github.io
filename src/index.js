@@ -8,6 +8,7 @@ function App () {
 	return (
 		<header>
 			<Topper />
+			<Sidenav />
 		</header>
 	)
 }

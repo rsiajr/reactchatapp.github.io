@@ -84,6 +84,7 @@ border-color: var(--col-smoke);
 }
 
 .searchconvo {
+    background-color: lightskyblue;
     margin-top: 1%;
     padding: 0 15% 0 2%;
     border-radius: .7em;
