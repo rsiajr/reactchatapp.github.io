@@ -54,7 +54,8 @@ body {
 }
 
 header {
-    display: flex;
+    display: block;
+    text-align: center;
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 1% 0;
@@ -64,9 +65,17 @@ header {
 }
 
 .topofconvo {
-    margin-left: 12em; 
+    margin-left: 2em; 
     padding: 0em .625em;
   }
+
+.topofconvo{
+border-style: ridge;
+border-width: thick;
+background-color: var(--col-smoke);
+opacity: .9;
+border-color: var(--col-smoke);
+}
   
 .conlogo {
     border-style: outset;
@@ -75,7 +84,7 @@ header {
 }
 
 .searchconvo {
-    margin-top: 2em;
+    margin-top: 1%;
     padding: 0 15% 0 2%;
     border-radius: .7em;
     width: 30%;
