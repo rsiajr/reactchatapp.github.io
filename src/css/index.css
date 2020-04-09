@@ -72,6 +72,10 @@ header {
     border-bottom-color: var(--col-royal);
 }
 
+.messagearea{
+    margin: 0 .5% 0 15%;
+}
+
 .topofconvo {
     margin-left: 2em; 
     padding: 0em .625em;
@@ -183,7 +187,7 @@ border-color: var(--col-smoke);
 }
 
 .messagebody{
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-align: left;
     color: var(--col-teal);
 }

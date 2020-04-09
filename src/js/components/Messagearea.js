@@ -6,7 +6,7 @@ import ProfilePic from 'img/ProfilePic.jpg';
 
 function Messagearea () {
 	return (
-        <div className="sidenav">
+        <div className="messagearea">
             <article class="topofconvo" id="topofconvo">
                     {<img class="contactpic" src={ProfilePic} id="contactpic" />}
                     <h1 class="contactname" id="contactname">Don Corleogne</h1>
