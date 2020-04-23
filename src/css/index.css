@@ -81,13 +81,27 @@ header {
     padding: 0em .625em;
   }
 
-.topofconvo{
+.topofconvo {
 border-style: ridge;
 border-width: thick;
 background-color: var(--col-smoke);
 opacity: .9;
 border-color: var(--col-smoke);
 }
+
+.topofreply {
+    margin-left: 2em; 
+    padding: 0em .625em;
+  }
+
+.topofreply {
+border-style: ridge;
+border-width: thick;
+background-color: darkcyan;
+opacity: .9;
+border-color: var(--col-smoke);
+}
+  
   
 .conlogo {
     border-style: outset;
@@ -186,10 +200,22 @@ border-color: var(--col-smoke);
     color: var(--col-royal);
 }
 
+.replyname{
+    margin: 0;
+    font-size: 2em;
+    color: white;
+}
+
 .messagebody{
     font-size: 1rem;
     text-align: left;
     color: var(--col-teal);
+}
+
+.replybody{
+    font-size: 1rem;
+    text-align: left;
+    color: white;
 }
 
 .entermessage{
