@@ -12,7 +12,7 @@ function Messagearea () {
                     <h1 class="contactname" id="contactname">Don Corleogne</h1>
                 <div class="contactcontainer"></div>
                 <div class="messagebody" id="messagebody">
-                    <h2 id="mainmessage">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas ratione enim dignissimos aliquam quis. Eligendi aliquid dolorem autem ratione cum dignissimos ullam voluptates excepturi itaque, harum totam cupiditate necessitatibus. Fuga?</h2>
+                    <h2 id="mainmessage">Hi Anna, how are you?</h2>
                 </div>
             </article>
         </div>
