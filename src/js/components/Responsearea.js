@@ -8,20 +8,20 @@ class Responsearea extends React.Component {
       super(props);
       this.state = {
         username: "Anna",
-        reply: "I'm doing well, Don, how are you?"
+        reply: "Not bad."
       };
     }
     changeReply = () => {
-      this.setState({reply: "blue"});
+      this.setState({reply: "I'm doing well, Don, how are you?"});
     }
     render() {
       return (
         <div className="messagearea">
-        <article class="topofconvo" id="topofconvo">
+        <article class="topofreply" id="topofconvo">
                 {<img class="contactpic" src={UserPhoto} id="contactpic" />}
-                <h1 class="contactname" id="contactname"> {this.state.username} </h1>
+                <h1 class="replyname" id="username"> {this.state.username} </h1>
             <div class="contactcontainer"></div>
-            <div class="messagebody" id="messagebody">
+            <div class="replybody" id="messagebody">
                 <h2 id="mainmessage"> {this.state.reply} </h2>
             </div>
         </article>
