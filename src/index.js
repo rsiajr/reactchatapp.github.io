@@ -4,6 +4,7 @@ import Topper from 'components/Topper';
 import Sidenav from 'components/Sidenav';
 import Messagearea from 'components/Messagearea';
 import Responsearea from 'components/Responsearea';
+import Sendreply from 'components/Sendreply';
 import 'css/index.css';
 
 

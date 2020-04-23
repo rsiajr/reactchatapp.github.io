@@ -22,11 +22,4 @@ Only required when publishing live online.
 npm run build
 ```
 
-<!-- 
-        <div class="messagediv" id="messagediv">
-            <input type="text" placeholder="Enter message here..." class="entermessage" id="entermessage">
-            <input type="button" value="Send" class="sendmessage" id="sendmessage">
-        </div>
-    </main> -->
-
 

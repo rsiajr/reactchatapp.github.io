@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'css/index.css';
-import UserPhoto from 'img/userphoto.jpg';
+import Sendreply from 'components/Sendreply';
 
 class Responsearea extends React.Component {
     constructor(props) {
@@ -18,7 +18,6 @@ class Responsearea extends React.Component {
       return (
         <div className="messagearea">
         <article class="topofreply" id="topofconvo">
-                {<img class="contactpic" src={UserPhoto} id="contactpic" />}
                 <h1 class="replyname" id="username"> {this.state.username} </h1>
             <div class="contactcontainer"></div>
             <div class="replybody" id="messagebody">
