@@ -10,7 +10,7 @@ function Sendreply () {
             <input type="text" placeholder="Enter message here..." className="entermessage" id="entermessage" />
             <input type="button" value="Send" className="sendmessage" id="sendmessage" />
         </div>
-	)
+    )
 }
 
 ReactDOM.render(<Sendreply />, document.getElementById('bottom'))
