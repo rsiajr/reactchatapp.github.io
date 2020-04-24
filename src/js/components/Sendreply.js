@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Responsearea from 'components/Responsearea';
 import 'css/index.css';
 
 

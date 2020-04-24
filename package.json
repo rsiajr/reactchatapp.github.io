@@ -25,6 +25,7 @@
     "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
+    "@pusher/chatkit-client-react": "^0.1.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
   }
